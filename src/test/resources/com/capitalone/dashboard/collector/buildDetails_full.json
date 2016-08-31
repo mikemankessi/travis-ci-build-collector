@@ -1,0 +1,1430 @@
+{
+  "@type": "builds",
+  "@href": "/repo/Imaginea%2FKodeBeagle/builds",
+  "@representation": "standard",
+  "@pagination": {
+    "limit": 25,
+    "offset": 0,
+    "count": 1016,
+    "is_first": true,
+    "is_last": false,
+    "next": {
+      "@href": "/repo/Imaginea%2FKodeBeagle/builds?limit=25&offset=25",
+      "offset": 25,
+      "limit": 25
+    },
+    "prev": null,
+    "first": {
+      "@href": "/repo/Imaginea%2FKodeBeagle/builds",
+      "offset": 0,
+      "limit": 25
+    },
+    "last": {
+      "@href": "/repo/Imaginea%2FKodeBeagle/builds?limit=25&offset=1000",
+      "offset": 1000,
+      "limit": 25
+    }
+  },
+  "builds": [
+    {
+      "@type": "build",
+      "@href": "/build/155867219",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 155867219,
+      "number": "1016",
+      "state": "passed",
+      "duration": 620,
+      "event_type": "pull_request",
+      "previous_state": "passed",
+      "started_at": "2016-08-29T07:42:31Z",
+      "finished_at": "2016-08-29T07:51:59Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 44288585,
+        "sha": "9c4c96a43753daad9a54edbf1f854670c773c6af",
+        "ref": "refs/pull/615/merge",
+        "message": "[core] #608 Fixes bug in prop doc where oveloaded\nmethods are getting ignored by adding argTypes field\n\nfixes #608\ncloses #615",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/615",
+        "committed_at": "2016-08-29T07:41:52Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/155867220",
+          "@representation": "minimal",
+          "id": 155867220
+        },
+        {
+          "@type": "job",
+          "@href": "/job/155867221",
+          "@representation": "minimal",
+          "id": 155867221
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/155867057",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 155867057,
+      "number": "1015",
+      "state": "passed",
+      "duration": 614,
+      "event_type": "pull_request",
+      "previous_state": "passed",
+      "started_at": "2016-08-29T07:41:24Z",
+      "finished_at": "2016-08-29T07:50:34Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 44288533,
+        "sha": "e2ce69a367f06128576724c618faaa2f53ce7a40",
+        "ref": "refs/pull/615/merge",
+        "message": "[core] #608 Fixes bug in prop doc where oveloaded\nmethods were getting ignored by adding argTypes field\n\nfixes #608\ncloses #615",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/615",
+        "committed_at": "2016-08-29T07:39:29Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/155867058",
+          "@representation": "minimal",
+          "id": 155867058
+        },
+        {
+          "@type": "job",
+          "@href": "/job/155867059",
+          "@representation": "minimal",
+          "id": 155867059
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/154063617",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 154063617,
+      "number": "1014",
+      "state": "passed",
+      "duration": 601,
+      "event_type": "push",
+      "previous_state": "passed",
+      "started_at": "2016-08-22T06:29:09Z",
+      "finished_at": "2016-08-22T06:38:30Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43763616,
+        "sha": "4ab940ed3aee3156291c990b3dbf4e640730a5d3",
+        "ref": "refs/heads/master",
+        "message": "[idea] #519 support added for kodebeagle api and removed for direct elastic search\n scala support removed\nfixes #519\ncloses #604",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/compare/f895ed4f75c0...4ab940ed3aee",
+        "committed_at": "2016-08-22T06:28:26Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/154063618",
+          "@representation": "minimal",
+          "id": 154063618
+        },
+        {
+          "@type": "job",
+          "@href": "/job/154063619",
+          "@representation": "minimal",
+          "id": 154063619
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/153209806",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 153209806,
+      "number": "1013",
+      "state": "passed",
+      "duration": 573,
+      "event_type": "pull_request",
+      "previous_state": "passed",
+      "started_at": "2016-08-18T08:55:42Z",
+      "finished_at": "2016-08-18T09:04:37Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43522215,
+        "sha": "a74b8dcd2008b4c89bdd770eeee3eb6c8dbac84e",
+        "ref": "refs/pull/604/merge",
+        "message": "[idea] #519 support added for kodebeagle api and removed for direct elastic search\n scala support removed\nfixes #519\ncloses #604",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/604",
+        "committed_at": "2016-08-18T08:18:56Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/153209807",
+          "@representation": "minimal",
+          "id": 153209807
+        },
+        {
+          "@type": "job",
+          "@href": "/job/153209808",
+          "@representation": "minimal",
+          "id": 153209808
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/153203150",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 153203150,
+      "number": "1012",
+      "state": "passed",
+      "duration": 523,
+      "event_type": "push",
+      "previous_state": "passed",
+      "started_at": "2016-08-18T08:25:30Z",
+      "finished_at": "2016-08-18T08:33:45Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43520200,
+        "sha": "f895ed4f75c0f514c96457e8dafbd52829035782",
+        "ref": "refs/heads/master",
+        "message": "[core] #604 Adds the ES uploader job.\nfixes #604\ncloses #605\n\nAdded typeName as well to type suggestion input.\nMost changed files limit set to 10.\nChanged ESUploader job to consolidate and update files.\n\nSmart whole text file format.\nMade changes to commit format. Added random string to camel case suggests.",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/compare/3f57c063d2e5...f895ed4f75c0",
+        "committed_at": "2016-08-17T19:49:49Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/153203151",
+          "@representation": "minimal",
+          "id": 153203151
+        },
+        {
+          "@type": "job",
+          "@href": "/job/153203152",
+          "@representation": "minimal",
+          "id": 153203152
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/153201918",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 153201918,
+      "number": "1011",
+      "state": "passed",
+      "duration": 578,
+      "event_type": "pull_request",
+      "previous_state": "passed",
+      "started_at": "2016-08-18T08:19:43Z",
+      "finished_at": "2016-08-18T08:28:42Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43519864,
+        "sha": "9c5acd2096962ac3113dab41311d544682baa591",
+        "ref": "refs/pull/604/merge",
+        "message": "[idea] #519 support added for kodebeagle api and removed for direct elastic search\n scala support removed\nfixes #519\ncloses #604",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/604",
+        "committed_at": "2016-08-18T08:18:56Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/153201919",
+          "@representation": "minimal",
+          "id": 153201919
+        },
+        {
+          "@type": "job",
+          "@href": "/job/153201920",
+          "@representation": "minimal",
+          "id": 153201920
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/153193555",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 153193555,
+      "number": "1010",
+      "state": "passed",
+      "duration": 602,
+      "event_type": "pull_request",
+      "previous_state": "passed",
+      "started_at": "2016-08-18T07:39:22Z",
+      "finished_at": "2016-08-18T07:48:56Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43517606,
+        "sha": "e747e20441bfb0e14a1fd7ede7a60bacabbe6368",
+        "ref": "refs/pull/604/merge",
+        "message": "[idea] #519 support added for kodebeagle api and removed for direct elastic search\n scala support removed\nfixes #519\ncloses #604",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/604",
+        "committed_at": "2016-08-18T07:38:04Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/153193556",
+          "@representation": "minimal",
+          "id": 153193556
+        },
+        {
+          "@type": "job",
+          "@href": "/job/153193557",
+          "@representation": "minimal",
+          "id": 153193557
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/153077994",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 153077994,
+      "number": "1009",
+      "state": "passed",
+      "duration": 591,
+      "event_type": "pull_request",
+      "previous_state": "passed",
+      "started_at": "2016-08-17T19:53:43Z",
+      "finished_at": "2016-08-17T20:02:43Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43484027,
+        "sha": "5176d09cc408093818c633f6aa2467911fae1bba",
+        "ref": "refs/pull/605/merge",
+        "message": "[core] #604 Adds the ES uploader job.\nfixes #604\ncloses #605\n\nAdded typeName as well to type suggestion input.\nMost changed files limit set to 10.\nChanged ESUploader job to consolidate and update files.\n\nSmart whole text file format.\nMade changes to commit format. Added random string to camel case suggests.",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/605",
+        "committed_at": "2016-08-17T19:49:49Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/153077995",
+          "@representation": "minimal",
+          "id": 153077995
+        },
+        {
+          "@type": "job",
+          "@href": "/job/153077996",
+          "@representation": "minimal",
+          "id": 153077996
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/152898260",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 152898260,
+      "number": "1008",
+      "state": "passed",
+      "duration": 550,
+      "event_type": "pull_request",
+      "previous_state": "passed",
+      "started_at": "2016-08-17T07:33:34Z",
+      "finished_at": "2016-08-17T07:41:53Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43432256,
+        "sha": "1339f39bf87b25529d11f30b1d82dd627b0e24a1",
+        "ref": "refs/pull/604/merge",
+        "message": "[idea] #519 support added for kodebeagle api and removed for direct elastic search\nfixes #519\ncloses #604",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/604",
+        "committed_at": "2016-08-17T07:29:31Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/152898261",
+          "@representation": "minimal",
+          "id": 152898261
+        },
+        {
+          "@type": "job",
+          "@href": "/job/152898262",
+          "@representation": "minimal",
+          "id": 152898262
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/152634695",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 152634695,
+      "number": "1007",
+      "state": "passed",
+      "duration": 610,
+      "event_type": "pull_request",
+      "previous_state": "passed",
+      "started_at": "2016-08-16T10:25:00Z",
+      "finished_at": "2016-08-16T10:34:35Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43357217,
+        "sha": "f867b7d3340eaf3ee2e550b7990848f51d4e8782",
+        "ref": "refs/pull/604/merge",
+        "message": "[idea] #519 support added for kodebeagle api and removed for direct elastic search\nfixes #519\ncloses #604",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/604",
+        "committed_at": "2016-08-16T10:16:32Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/152634696",
+          "@representation": "minimal",
+          "id": 152634696
+        },
+        {
+          "@type": "job",
+          "@href": "/job/152634697",
+          "@representation": "minimal",
+          "id": 152634697
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/152437101",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 152437101,
+      "number": "1006",
+      "state": "passed",
+      "duration": 650,
+      "event_type": "push",
+      "previous_state": "passed",
+      "started_at": "2016-08-15T16:59:19Z",
+      "finished_at": "2016-08-15T17:09:24Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43300732,
+        "sha": "3f57c063d2e5d7af76dc147a504a100259cb27be",
+        "ref": "refs/heads/master",
+        "message": "[core] #602 Modified repo interface to return iterator over files rather than a concrete collection.\nAlso changed the repo git aggregation logic so that minimum things are kept around in memory.\nfixes #602",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/compare/d8b1fdbf02b3...3f57c063d2e5",
+        "committed_at": "2016-08-15T10:48:29Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/152437102",
+          "@representation": "minimal",
+          "id": 152437102
+        },
+        {
+          "@type": "job",
+          "@href": "/job/152437103",
+          "@representation": "minimal",
+          "id": 152437103
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/152432668",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 152432668,
+      "number": "1005",
+      "state": "passed",
+      "duration": 647,
+      "event_type": "pull_request",
+      "previous_state": "passed",
+      "started_at": "2016-08-15T16:41:24Z",
+      "finished_at": "2016-08-15T16:51:35Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43299488,
+        "sha": "bcf4667c068a896153798b185694e7ac9d84f0c8",
+        "ref": "refs/pull/603/merge",
+        "message": "[core] #602 Modified repo interface to return iterator over files rather than a concrete collection.\nAlso changed the repo git aggregation logic so that minimum things are kept around in memory.\nfixes #602",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/603",
+        "committed_at": "2016-08-15T10:48:29Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/152432669",
+          "@representation": "minimal",
+          "id": 152432669
+        },
+        {
+          "@type": "job",
+          "@href": "/job/152432675",
+          "@representation": "minimal",
+          "id": 152432675
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/152221311",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 152221311,
+      "number": "1004",
+      "state": "passed",
+      "duration": 577,
+      "event_type": "push",
+      "previous_state": "passed",
+      "started_at": "2016-08-14T16:09:45Z",
+      "finished_at": "2016-08-14T16:18:39Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43237022,
+        "sha": "d8b1fdbf02b3858bc12c3c388d1d447e4dee21fb",
+        "ref": "refs/heads/master",
+        "message": "[core] #600 Git log issue for certain files.\nFor now while collecting file details for a file, ignoring those file that do not show up in git log (even if present in git tree).",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/compare/4db406938767...d8b1fdbf02b3",
+        "committed_at": "2016-08-14T15:42:01Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/152221312",
+          "@representation": "minimal",
+          "id": 152221312
+        },
+        {
+          "@type": "job",
+          "@href": "/job/152221313",
+          "@representation": "minimal",
+          "id": 152221313
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/152218045",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 152218045,
+      "number": "1003",
+      "state": "passed",
+      "duration": 496,
+      "event_type": "pull_request",
+      "previous_state": "passed",
+      "started_at": "2016-08-14T15:46:20Z",
+      "finished_at": "2016-08-14T15:52:55Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43236104,
+        "sha": "afafe1b7e6963935638d2a1e7dda7397efb22f11",
+        "ref": "refs/pull/601/merge",
+        "message": "[core] #600 Git log issue for certain files.\nFor now while collecting file details for a file, ignoring those file that do not show up in git log (even if present in git tree).",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/601",
+        "committed_at": "2016-08-14T15:42:01Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/152218046",
+          "@representation": "minimal",
+          "id": 152218046
+        },
+        {
+          "@type": "job",
+          "@href": "/job/152218047",
+          "@representation": "minimal",
+          "id": 152218047
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/152041884",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 152041884,
+      "number": "1002",
+      "state": "passed",
+      "duration": 508,
+      "event_type": "push",
+      "previous_state": "failed",
+      "started_at": "2016-08-13T13:08:15Z",
+      "finished_at": "2016-08-13T13:16:14Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43185808,
+        "sha": "4db40693876722408787bc7b8fc1fca0e72da720",
+        "ref": "refs/heads/master",
+        "message": "[core] #598 Adds mapping for repo and file details types\n\nfixes #598\ncloses #599",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/compare/345aba464dde...4db406938767",
+        "committed_at": "2016-08-13T12:55:11Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/152041885",
+          "@representation": "minimal",
+          "id": 152041885
+        },
+        {
+          "@type": "job",
+          "@href": "/job/152041886",
+          "@representation": "minimal",
+          "id": 152041886
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/152040655",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 152040655,
+      "number": "1001",
+      "state": "passed",
+      "duration": 552,
+      "event_type": "pull_request",
+      "previous_state": "failed",
+      "started_at": "2016-08-13T12:56:17Z",
+      "finished_at": "2016-08-13T13:05:01Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43185462,
+        "sha": "067b1c65f0ad79eb6e8d5e686ffdce24889784ba",
+        "ref": "refs/pull/599/merge",
+        "message": "[core] #598 Adds mapping for repo and file details types\n\nfixes #598\ncloses #599",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/599",
+        "committed_at": "2016-08-13T12:55:11Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/152040656",
+          "@representation": "minimal",
+          "id": 152040656
+        },
+        {
+          "@type": "job",
+          "@href": "/job/152040657",
+          "@representation": "minimal",
+          "id": 152040657
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/152038821",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 152038821,
+      "number": "1000",
+      "state": "failed",
+      "duration": 291,
+      "event_type": "pull_request",
+      "previous_state": "failed",
+      "started_at": "2016-08-13T12:37:10Z",
+      "finished_at": "2016-08-13T12:41:17Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43184941,
+        "sha": "135cd0853e4d7c2d730a1c3becaffdbd82d3c501",
+        "ref": "refs/pull/599/merge",
+        "message": "[core] #598 Adds mapping for repo and file details types\n\nfixes #598\ncloses #599",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/599",
+        "committed_at": "2016-08-13T12:36:22Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/152038822",
+          "@representation": "minimal",
+          "id": 152038822
+        },
+        {
+          "@type": "job",
+          "@href": "/job/152038823",
+          "@representation": "minimal",
+          "id": 152038823
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/152037476",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 152037476,
+      "number": "999",
+      "state": "passed",
+      "duration": 574,
+      "event_type": "pull_request",
+      "previous_state": "failed",
+      "started_at": "2016-08-13T12:24:37Z",
+      "finished_at": "2016-08-13T12:33:41Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43184501,
+        "sha": "23f0fd468a54717feb38b66ed25ce8ca4013f895",
+        "ref": "refs/pull/599/merge",
+        "message": "[core] #598 Adds mapping for repo and file details types\n\nfixes #598\ncloses #599",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/599",
+        "committed_at": "2016-08-13T12:23:03Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/152037477",
+          "@representation": "minimal",
+          "id": 152037477
+        },
+        {
+          "@type": "job",
+          "@href": "/job/152037478",
+          "@representation": "minimal",
+          "id": 152037478
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/151823013",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 151823013,
+      "number": "998",
+      "state": "failed",
+      "duration": 262,
+      "event_type": "pull_request",
+      "previous_state": "failed",
+      "started_at": "2016-08-12T14:47:09Z",
+      "finished_at": "2016-08-12T14:50:58Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43121679,
+        "sha": "a540d8d2debfb23a6fad1aa367175db5872021fb",
+        "ref": "refs/pull/599/merge",
+        "message": "[core] #598 Adds mapping for repo and file details types\n\nfixes #598\ncloses #599",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/599",
+        "committed_at": "2016-08-12T14:45:43Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/151823014",
+          "@representation": "minimal",
+          "id": 151823014
+        },
+        {
+          "@type": "job",
+          "@href": "/job/151823015",
+          "@representation": "minimal",
+          "id": 151823015
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/151809411",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 151809411,
+      "number": "997",
+      "state": "failed",
+      "duration": 326,
+      "event_type": "push",
+      "previous_state": "passed",
+      "started_at": "2016-08-12T13:59:39Z",
+      "finished_at": "2016-08-12T14:04:17Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43117807,
+        "sha": "345aba464ddedf063efab0133ad993cfe7a1b41d",
+        "ref": "refs/heads/master",
+        "message": "[core] #593 Correct structure for documentation index\n\n    fixes #593\n    closes #594",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/compare/d96c96fba41d...345aba464dde",
+        "committed_at": "2016-08-12T13:47:10Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/151809412",
+          "@representation": "minimal",
+          "id": 151809412
+        },
+        {
+          "@type": "job",
+          "@href": "/job/151809413",
+          "@representation": "minimal",
+          "id": 151809413
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/151806606",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 151806606,
+      "number": "996",
+      "state": "passed",
+      "duration": 615,
+      "event_type": "pull_request",
+      "previous_state": "passed",
+      "started_at": "2016-08-12T13:48:56Z",
+      "finished_at": "2016-08-12T13:58:37Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43116976,
+        "sha": "fd4a90ba2b3ef7eef065a3502374c04411675600",
+        "ref": "refs/pull/594/merge",
+        "message": "[core] #593 Correct structure for documentation index\n\n    fixes #593\n    closes #594",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/594",
+        "committed_at": "2016-08-12T13:47:10Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/151806607",
+          "@representation": "minimal",
+          "id": 151806607
+        },
+        {
+          "@type": "job",
+          "@href": "/job/151806608",
+          "@representation": "minimal",
+          "id": 151806608
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/151800650",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 151800650,
+      "number": "995",
+      "state": "failed",
+      "duration": 568,
+      "event_type": "pull_request",
+      "previous_state": "passed",
+      "started_at": "2016-08-12T13:25:41Z",
+      "finished_at": "2016-08-12T13:34:38Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43115232,
+        "sha": "232088647b959b9ed7481434e096ffb119ac2ede",
+        "ref": "refs/pull/594/merge",
+        "message": "[core] #593 Correct structure for documentation index\n\n    fixes #593\n    closes #594",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/594",
+        "committed_at": "2016-08-12T13:20:19Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/151800651",
+          "@representation": "minimal",
+          "id": 151800651
+        },
+        {
+          "@type": "job",
+          "@href": "/job/151800652",
+          "@representation": "minimal",
+          "id": 151800652
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/151770634",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 151770634,
+      "number": "994",
+      "state": "passed",
+      "duration": 607,
+      "event_type": "pull_request",
+      "previous_state": "passed",
+      "started_at": "2016-08-12T11:03:38Z",
+      "finished_at": "2016-08-12T11:13:05Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43106547,
+        "sha": "2863424daabdd60bbdc5ccff513efdc778724b4f",
+        "ref": "refs/pull/594/merge",
+        "message": "[core] #593 Correct structure for documentation index\n\n    fixes #593\n    closes #594",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/594",
+        "committed_at": "2016-08-12T11:01:21Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/151770635",
+          "@representation": "minimal",
+          "id": 151770635
+        },
+        {
+          "@type": "job",
+          "@href": "/job/151770636",
+          "@representation": "minimal",
+          "id": 151770636
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/151769109",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 151769109,
+      "number": "993",
+      "state": "passed",
+      "duration": 565,
+      "event_type": "push",
+      "previous_state": "passed",
+      "started_at": "2016-08-12T10:56:38Z",
+      "finished_at": "2016-08-12T11:05:34Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43106117,
+        "sha": "d96c96fba41d3405c334cc03b3324ed0218c28cb",
+        "ref": "refs/heads/master",
+        "message": "[core] #595 Adds repo indices and git stats.\n1. Adds new indices for repositories.\n2. Collects file/repo git stats and produce indices.\n\nfixes #596\nfixes #595",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/compare/0bddce38bd43...d96c96fba41d",
+        "committed_at": "2016-08-12T10:14:38Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/151769110",
+          "@representation": "minimal",
+          "id": 151769110
+        },
+        {
+          "@type": "job",
+          "@href": "/job/151769111",
+          "@representation": "minimal",
+          "id": 151769111
+        }
+      ]
+    },
+    {
+      "@type": "build",
+      "@href": "/build/151762192",
+      "@representation": "standard",
+      "@permissions": {
+        "read": true,
+        "cancel": false,
+        "restart": false
+      },
+      "id": 151762192,
+      "number": "992",
+      "state": "passed",
+      "duration": 586,
+      "event_type": "pull_request",
+      "previous_state": "passed",
+      "started_at": "2016-08-12T10:15:35Z",
+      "finished_at": "2016-08-12T10:24:52Z",
+      "repository": {
+        "@type": "repository",
+        "@href": "/repo/3992889",
+        "@representation": "minimal",
+        "id": 3992889,
+        "name": "KodeBeagle",
+        "slug": "Imaginea/KodeBeagle"
+      },
+      "branch": {
+        "@type": "branch",
+        "@href": "/repo/3992889/branch/master",
+        "@representation": "minimal",
+        "name": "master"
+      },
+      "commit": {
+        "@type": "commit",
+        "@representation": "minimal",
+        "id": 43104028,
+        "sha": "6ac7af3848e671ce0ecce665e5c22528e9cff874",
+        "ref": "refs/pull/597/merge",
+        "message": "[core] #595 Adds repo indices and git stats.\n1. Adds new indices for repositories.\n2. Collects file/repo git stats and produce indices.\n\nfixes #596\nfixes #595",
+        "compare_url": "https://github.com/Imaginea/KodeBeagle/pull/597",
+        "committed_at": "2016-08-12T10:14:38Z"
+      },
+      "jobs": [
+        {
+          "@type": "job",
+          "@href": "/job/151762193",
+          "@representation": "minimal",
+          "id": 151762193
+        },
+        {
+          "@type": "job",
+          "@href": "/job/151762194",
+          "@representation": "minimal",
+          "id": 151762194
+        }
+      ]
+    }
+  ]
+} 
